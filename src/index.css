@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #242424;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  overflow-x: hidden;
+}

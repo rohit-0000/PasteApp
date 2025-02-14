@@ -1,0 +1,101 @@
+#home-container{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 85vh;
+}
+
+#title{
+    display: flex;
+    width: 80%;
+    gap:5px;
+}
+#title-input{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 1.5rem;
+    width: 70vw;
+}
+#submit-btn{
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+#content{
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    background-color: grey;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+#content-input{
+    width: 99.4%;
+    height: 92.3%;
+    resize: none;
+    outline: none;
+    border-radius: 10px 5px 8px 8px;
+    background-color: black;
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: white;
+    margin: 0.3%;
+}
+#copy-btn{
+    background: transparent;
+    border :none;
+    cursor: pointer;
+}
+#copy-btn img{
+    width: 25px;
+}
+
+#copy-btn:active{
+    transform: scale(0.9);
+}
+
+#Copy-area{
+    display: flex;
+    padding:5px 15px; 
+    justify-content: space-between;
+}
+
+#temp{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+#red{
+    background-color: rgb(182, 1, 1);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+#green{
+    background-color: green;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+#yellow{
+    background-color: rgb(198, 182, 2);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
