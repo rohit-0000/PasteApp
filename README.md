@@ -1,1 +1,1 @@
-# PasteApp
+# Paste-App
